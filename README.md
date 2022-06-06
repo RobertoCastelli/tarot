@@ -1,4 +1,4 @@
-# TARTOT script
+# TAROT script
 
 > Practice tarot reading with this app made with React + Typescript
 
