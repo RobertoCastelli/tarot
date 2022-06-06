@@ -1,0 +1,257 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=IM+Fell+English+SC&display=swap");
+
+/* MAIN */
+:root {
+  --black: #1d1a28;
+  --brown: #483643;
+  --light-brown: #836161;
+  --green: #37525d;
+  --light-green: #95afa1;
+  --orange: #f6ac81;
+  --white: #d3d3d3;
+}
+body {
+  margin: 0;
+  letter-spacing: 0.07rem;
+  color: var(--white);
+  background-color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+hr {
+  border: 1px solid var(--light-brown);
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+span {
+  color: var(--orange);
+}
+
+/* CONTAINER */
+.container {
+  max-width: 768px;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black);
+}
+.content {
+  flex-grow: 1;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--white);
+  padding: 1rem;
+}
+.title__wrapper {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: linear-gradient(var(--black), var(--light-brown));
+}
+
+/* HEADER */
+.header__subtitle {
+  text-align: justify;
+  text-transform: lowercase;
+  margin: 1rem;
+}
+
+/* GAME TYPE BUTTONS */
+.game__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.game__one-card-content,
+.game__three-cards-content {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.game__one-card-img,
+.game__three-cards-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.game__one-card-img:hover {
+  transition: 0.3s linear;
+  transform: rotate(20deg);
+}
+.game__three-cards-img:hover {
+  transition: 0.3s linear;
+  transform: rotate(-20deg);
+}
+
+/* ACTIONS */
+.action__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.action__content {
+  display: grid;
+  gap: 0.5rem;
+}
+.btn__shuffle,
+.btn__home {
+  color: var(--light-green);
+  background-color: transparent;
+  border: none;
+}
+.btn__shuffle:hover,
+.btn__home:hover {
+  color: var(--orange);
+}
+
+/* SHAKE CARDS */
+.shake {
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+/* DECK */
+.deck__content {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
+  gap: 0.3rem;
+}
+.deck__img {
+  width: 90px;
+  border: 1px solid var(--black);
+}
+.deck__img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
+}
+.deck__alert {
+  display: grid;
+  place-content: center;
+  color: red;
+}
+
+/* RULES */
+.rules__wrapper {
+  display: grid;
+  text-transform: lowercase;
+}
+.rules__title {
+  text-align: center;
+}
+.rules__li {
+  margin-bottom: 1rem;
+}
+
+/* CARD */
+.card__wrapper {
+  font-family: "IM Fell English SC", sans-serif;
+  font-size: large;
+  text-transform: lowercase;
+  margin: 1rem auto;
+}
+.card__content {
+  display: grid;
+  max-width: 768px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 4px solid var(--light-brown);
+  background-color: var(--brown);
+}
+.card__card {
+  width: 150px;
+  height: 250px;
+  box-shadow: 5px 5 px 20px -3px var(--black);
+  box-shadow: 5px 5px 25px -3px var(--black);
+  transition: all 0.3s ease-in-out;
+  justify-self: center;
+}
+.card__card:hover {
+  transform: scale(1.4);
+}
+.card__name {
+  text-align: center;
+  color: var(--orange);
+}
+.card__keywords ul,
+.card__light ul,
+.card__shadow ul,
+.card__fortune-telling ul,
+.card__questions ul {
+  margin: 0;
+}
+.card__btn-container {
+  display: grid;
+  gap: 0.5rem;
+}
+.card__btn--close {
+  margin: 1rem auto;
+  color: var(--light-green);
+  border: none;
+  background-color: transparent;
+}
+.card__btn--close:hover {
+  color: var(--orange);
+}
+.card__content a {
+  margin: auto;
+}
+
+/* FOOTER */
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background: linear-gradient(var(--light-brown), var(--black));
+}
+.credits__wrapper {
+  font-size: small;
+  text-align: center;
+}
+.credits__wrapper section {
+  margin-top: 0.1rem;
+}
