@@ -32,3 +32,7 @@ function App() {
 }
 
 export default App
+
+//todo: avoid blank pages
+//todo: upgrade shuffle animation
+//todo: improve CSS

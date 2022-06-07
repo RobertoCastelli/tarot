@@ -1,37 +1,27 @@
-import React, { FC, useState, useEffect, createContext, ReactNode } from "react"
+import { FC, useState, useEffect, createContext, ReactNode } from "react"
 //--- DATABASE
 import { cards } from "./database/cards"
 //--- CONTEXT
-export const ContextData = createContext<any>(cards) //! fix the 'any'
+export const ContextData = createContext<any>({})
 
 //--- INTERFACE
 interface ContextProps {
   children: ReactNode
 }
 
-interface Deck {}
-
 //--- FC PROVIDER
 const ContextProvider: FC<ContextProps> = ({ children }) => {
   //--- STATES
-  const [deck, setDeck] = useState<Deck[]>([])
-  const [mixedDeck, setMixedDeck] = useState<Deck[]>([])
-  const [card, setCard] = useState<Deck[]>([])
+  const [deck, setDeck] = useState<string[]>([])
+  const [mixedDeck, setMixedDeck] = useState<string[]>([])
+  const [card, setCard] = useState<string[]>([])
   const [shake, setShake] = useState(false)
 
-  //--- GENERATE DECK --> GET 22 MAJOR ARCANA CARDS
-  useEffect(
-    () =>
-      setDeck(
-        cards.filter(
-          (card: { arcana: string }) => card.arcana === "Major Arcana"
-        )
-      ),
-    []
-  )
+  //--- GET DECK
+  useEffect(() => setDeck(cards), [])
 
   //--- SELECT ONE CARD
-  const getOneCard = (card: Deck[]) => {
+  const getOneCard = (card: string[]) => {
     setCard(card)
   }
 

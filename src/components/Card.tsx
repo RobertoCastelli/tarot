@@ -28,7 +28,7 @@ const Card = () => {
         <div className="card__archetype">
           <span>archetype:</span> {card.Archetype}
         </div>
-        <div>
+        {/*   <div>
           <span>mythical ~ spiritual:</span> {card["Mythical/Spiritual"]}
         </div>
         <div className="card__questions">
@@ -37,8 +37,8 @@ const Card = () => {
             {card["Questions to Ask"].map((elem: string) => (
               <li key={elem}>{elem}</li>
             ))}
-          </ul>
-        </div>
+          </ul> 
+        </div>*/}
         <div className="card__fortune-telling">
           <span>fortune telling:</span>
           <ul>

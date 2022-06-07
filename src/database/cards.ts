@@ -22,7 +22,7 @@ import judgement from './images/m20.jpg'
 import world from './images/m21.jpg'
 
 
-export const cards = [
+export const cards: any = [
     {
       "name": "The Fool",
       "number": "0",
@@ -65,8 +65,8 @@ export const cards = [
 		"Hebrew Alphabet": "Aleph/Ox/1",
 		"Numerology": "0 (off the scale; pure potential)",
 		"Elemental": "Air",
-		"Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
-      "Questions to Ask" : ["What would I do if I felt free to take a leap?","How willing am I to be vulnerable and open?","How might past experiences help in this new situation?"]       	
+/* 		"Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
+      "Questions to Ask" : ["What would I do if I felt free to take a leap?","How willing am I to be vulnerable and open?","How might past experiences help in this new situation?"]       	 */
     },
     {
       "name": "The Magician",
@@ -104,8 +104,8 @@ export const cards = [
 		"Archetype" : "The Ego/The Self",
 		"Hebrew Alphabet" : "Beth/House/2",
 		"Numerology" : "1 (origins, unity, seeds)",
-		"Elemental" : "The Sun/Mercury",		"Mythical/Spiritual" : "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
-		"Questions to Ask" : ["What am I empowered to do?","How might my abilities come into play?","To what extent am I making the most of my talents?"]
+/* 		"Elemental" : "The Sun/Mercury",		"Mythical/Spiritual" : "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
+		"Questions to Ask" : ["What am I empowered to do?","How might my abilities come into play?","To what extent am I making the most of my talents?"] */
     },
     {
       "name": "The High Priestess",
@@ -147,8 +147,8 @@ export const cards = [
       "Hebrew Alphabet" : "Gimel/Camel/3",
       "Numerology" : "2 (division, debate, duality)",
       "Elemental" : "The Moon",
-      "Mythical/Spiritual" : "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
-	  "Questions to Ask" : ["What might a rebel against tradition do?","What isn't being said or revealed?","What could be achieved by observing and reflecting?"]
+/*       "Mythical/Spiritual" : "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
+	  "Questions to Ask" : ["What might a rebel against tradition do?","What isn't being said or revealed?","What could be achieved by observing and reflecting?"] */
     },
     {
       "name": "The Empress",
@@ -191,8 +191,8 @@ export const cards = [
       "Hebrew Alphabet" : "Daleth/Door/4",
       "Numerology" : "3 (expression, productivity, output)",
       "Elemental" : "Venus",
-      "Mythical/Spiritual" : "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
-	  "Questions to Ask" : ["What would a concerned and capable mother do?","What can I do that would emphasize growth?","How can I celebrate my own sensuality and sexuality?"]
+/*       "Mythical/Spiritual" : "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
+	  "Questions to Ask" : ["What would a concerned and capable mother do?","What can I do that would emphasize growth?","How can I celebrate my own sensuality and sexuality?"] */
     },
     {
       "name": "The Emperor",
@@ -232,8 +232,8 @@ export const cards = [
       "Hebrew Alphabet" : "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
       "Numerology" : "4 (stability, equality, persistence)",
       "Elemental" : "Mars/Aries",
-      "Mythical/Spiritual" : "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
-	  "Questions to Ask" : ["How does the issue of control or regulation impact this situation?","What would a compassionate but strict father do?","What needs more control?"]
+/*       "Mythical/Spiritual" : "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
+	  "Questions to Ask" : ["How does the issue of control or regulation impact this situation?","What would a compassionate but strict father do?","What needs more control?"] */
     },
     {
       "name": "The Hierophant",
@@ -275,8 +275,8 @@ export const cards = [
       "Hebrew Alphabet" : "Vau/Nail or Spike/6",
       "Numerology" : "5 (instability, resistance, confrontation, evolution)",
       "Elemental" : "Taurus/Earth",
-      "Mythical/Spiritual" : "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
-	  "Questions to Ask" : ["What role might tradition or religion play in this situation?","Who authored the rules? Who enforces them? Why?","How might an experienced guide impact this situation?"]
+/*       "Mythical/Spiritual" : "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
+	  "Questions to Ask" : ["What role might tradition or religion play in this situation?","Who authored the rules? Who enforces them? Why?","How might an experienced guide impact this situation?"] */
     },
     {
       "name": "The Lovers",
@@ -316,8 +316,8 @@ export const cards = [
       "Hebrew Alphabet" : "Zain/Sword/7",
       "Numerology" : "6 (cooperation, collaboration, interaction)",
       "Elemental" : "Gemini",
-      "Mythical/Spiritual" : "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
-	  "Questions to Ask" : ["What guides my choices?","What is my heart leading me to do?","How might this decision transform me as a person?"]
+/*       "Mythical/Spiritual" : "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
+	  "Questions to Ask" : ["What guides my choices?","What is my heart leading me to do?","How might this decision transform me as a person?"] */
     },
     {
       "name": "The Chariot",
@@ -356,8 +356,8 @@ export const cards = [
       "Hebrew Alphabet" : "Cheth/Fence/8",
       "Numerology" : "7 (imagination, inner work, psychology)",
       "Elemental" : "Cancer",
-      "Mythical/Spiritual" : "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
-	  "Questions to Ask" : ["To what extent have I arrived? What will my next challenge be?","How can I use past achievements to their best advantage?","What would the criteria for real and meaningful success be?"]
+/*       "Mythical/Spiritual" : "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
+	  "Questions to Ask" : ["To what extent have I arrived? What will my next challenge be?","How can I use past achievements to their best advantage?","What would the criteria for real and meaningful success be?"] */
     },
     {
       "name": "Strength",
@@ -395,8 +395,8 @@ export const cards = [
       "Hebrew Alphabet" : "Lamed/Outstretched Arms/30 or Theth/Snake/9",
       "Numerology" : "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
       "Elemental" : "Libra or Leo",
-      "Mythical/Spiritual" : "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
-	  "Questions to Ask" : ["To what extent is your life (or work) balanced?","How can you achieve greater objectivity?","What course of action would be fair to everyone concerned?"]
+/*       "Mythical/Spiritual" : "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
+	  "Questions to Ask" : ["To what extent is your life (or work) balanced?","How can you achieve greater objectivity?","What course of action would be fair to everyone concerned?"] */
     },
     {
       "name": "The Hermit",
@@ -435,8 +435,8 @@ export const cards = [
       "Hebrew Alphabet" : "Yod/Hand/10",
       "Numerology" : "9 (fullness, readiness, ripeness)",
       "Elemental" : "Virgo",
-      "Mythical/Spiritual" : "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
-	  "Questions to Ask" : ["What would happen if I simply withdrew and took no action?","How can I get some perspective on the situation?","Who has walked this path before me? How can I enlist his or her help?"]
+/*       "Mythical/Spiritual" : "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
+	  "Questions to Ask" : ["What would happen if I simply withdrew and took no action?","How can I get some perspective on the situation?","Who has walked this path before me? How can I enlist his or her help?"] */
     },
     {
       "name": "Wheel of Fortune",
@@ -476,8 +476,8 @@ export const cards = [
       "Hebrew Alphabet" : "Koph/Palm/20",
       "Numerology" : "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
       "Elemental" : "Jupiter",
-      "Mythical/Spiritual" : "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
-	  "Questions to Ask" : ["How does this challenge fit into a larger pattern?","What role does luck play in my circumstances?","What can I control? How should I know when to relinquish control?"]
+/*       "Mythical/Spiritual" : "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
+	  "Questions to Ask" : ["How does this challenge fit into a larger pattern?","What role does luck play in my circumstances?","What can I control? How should I know when to relinquish control?"] */
     },
     {
       "name": "Justice",
@@ -517,8 +517,8 @@ export const cards = [
       "Hebrew Alphabet" : "Theth/Snake/9 or Lamed/Outstretched Arms/30",
       "Numerology" : "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
       "Elemental" : "Leo or Libra",
-      "Mythical/Spiritual" : "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
-	  "Questions to Ask" : ["How can I enhance my self-discipline?","What behaviors tempt me? How can I resist?","What instincts do I continue to struggle with today?"]
+/*       "Mythical/Spiritual" : "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
+	  "Questions to Ask" : ["How can I enhance my self-discipline?","What behaviors tempt me? How can I resist?","What instincts do I continue to struggle with today?"] */
     },
     {
       "name": "The Hanged Man",
@@ -558,8 +558,8 @@ export const cards = [
       "Hebrew Alphabet" : "Mem/Water/40",
       "Numerology" : "12 = 1 + 2 = 3 (expression, productivity, output)",
       "Elemental" : "Water",
-      "Mythical/Spiritual" : "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
-	  "Questions to Ask" : ["How can I radically alter my perspective?","How might being stuck actually be a blessing in disguise?","How can I help myself see the glass as half full?"]
+/*       "Mythical/Spiritual" : "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
+	  "Questions to Ask" : ["How can I radically alter my perspective?","How might being stuck actually be a blessing in disguise?","How can I help myself see the glass as half full?"] */
     },
     {
       "name": "Death",
@@ -599,8 +599,8 @@ export const cards = [
       "Hebrew Alphabet" : "Nun/Fish/50",
       "Numerology" : "13 = 1 + 3 = 4 (stability, persistence)",
       "Elemental" : "Scorpio",
-      "Mythical/Spiritual" : "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
-	  "Questions to Ask" : ["What needs to end?","How might an ending actually be a blessing in this situation?","What's next?"]
+/*       "Mythical/Spiritual" : "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
+	  "Questions to Ask" : ["What needs to end?","How might an ending actually be a blessing in this situation?","What's next?"] */
     },
     {
       "name": "Temperance",
@@ -642,8 +642,8 @@ export const cards = [
       "Hebrew Alphabet" : "Samekh/Foundation/60",
       "Numerology" : "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
       "Elemental" : "Sagittarius",
-      "Mythical/Spiritual" : "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
-	  "Questions to Ask" : ["How can I avoid extremes?","What does everyone involved have in common?","How might combining familiar things help me create something new?"]
+/*       "Mythical/Spiritual" : "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
+	  "Questions to Ask" : ["How can I avoid extremes?","What does everyone involved have in common?","How might combining familiar things help me create something new?"] */
     },
     {
       "name": "The Devil",
@@ -684,8 +684,8 @@ export const cards = [
       "Hebrew Alphabet" : "Ayin/Eye/70",
       "Numerology" : "15 = 1 + 5 = 6 (adjustment, collaboration)",
       "Elemental" : "Capricorn",
-      "Mythical/Spiritual" : "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
-	  "Questions to Ask" : ["What enslaves me? How can I set myself free?","How can I re-evaluate the importance I assign to material things?","To what extent do my cravings define me?"]
+/*       "Mythical/Spiritual" : "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
+	  "Questions to Ask" : ["What enslaves me? How can I set myself free?","How can I re-evaluate the importance I assign to material things?","To what extent do my cravings define me?"] */
     },
     {
       "name": "The Tower",
@@ -727,8 +727,8 @@ export const cards = [
       "Hebrew Alphabet" : "Pe[as]/Open Mouth/80",
       "Numerology" : "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
       "Elemental" : "Mars",
-      "Mythical/Spiritual" : "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
-	  "Questions to Ask" : ["How might the current situation dramatically alter my perspective?","How might this loss open the door for new growth?","What attitudes need to be struck down before I proceed?"]
+/*       "Mythical/Spiritual" : "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
+	  "Questions to Ask" : ["How might the current situation dramatically alter my perspective?","How might this loss open the door for new growth?","What attitudes need to be struck down before I proceed?"] */
     },
     {
       "name": "The Star",
@@ -771,8 +771,8 @@ export const cards = [
       "Hebrew Alphabet" : "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
       "Numerology" : "17 = 1 + 7 = 8 (action, movement, swiftness)",
       "Elemental" : "Aquarius",
-      "Mythical/Spiritual" : "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
-	  "Questions to Ask" : ["What would my higher power direct me to do?","How can I be less self-conscious and guarded?","How can I better attune myself to the abundance of life's blessings?"]
+/*       "Mythical/Spiritual" : "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
+	  "Questions to Ask" : ["What would my higher power direct me to do?","How can I be less self-conscious and guarded?","How can I better attune myself to the abundance of life's blessings?"] */
     },
     {
       "name": "The Moon",
@@ -812,8 +812,8 @@ export const cards = [
       "Hebrew Alphabet" : "Koph/Back of the Head/100",
       "Numerology" : "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
       "Elemental" : "Pisces",
-      "Mythical/Spiritual" : "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
-	  "Questions to Ask" : ["How can I face my fears and move forward?","What helpers can serve me as guides through my personal darkness?","How can I deal with the unknown in healthy ways?"]
+/*       "Mythical/Spiritual" : "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
+	  "Questions to Ask" : ["How can I face my fears and move forward?","What helpers can serve me as guides through my personal darkness?","How can I deal with the unknown in healthy ways?"] */
     },
     {
       "name": "The Sun",
@@ -852,8 +852,8 @@ export const cards = [
       "Hebrew Alphabet" : "Resh/Head/200",
       "Numerology" : "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
       "Elemental" : "The Sun",
-      "Mythical/Spiritual" : "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
-	  "Questions to Ask" : ["How can I take best advantage of the attention coming my way?","What are my highest spiritual goals?","How can I avoid being bedazzled by the energy swirling around me?"]
+/*       "Mythical/Spiritual" : "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
+	  "Questions to Ask" : ["How can I take best advantage of the attention coming my way?","What are my highest spiritual goals?","How can I avoid being bedazzled by the energy swirling around me?"] */
     },
     {
       "name": "Judgement",
@@ -894,8 +894,8 @@ export const cards = [
       "Hebrew Alphabet" : "Sin/Tooth/300",
       "Numerology" : "20 = 2 + 0 = 2 (division, duality)",
       "Elemental" : "Fire",
-      "Mythical/Spiritual" : "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
-	  "Questions to Ask" : ["What is the main thing I need to realize about myself?","In what way might the universe be trying to get my attention?","If I were to reinvent myself, what would I become?"]
+/*       "Mythical/Spiritual" : "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
+	  "Questions to Ask" : ["What is the main thing I need to realize about myself?","In what way might the universe be trying to get my attention?","If I were to reinvent myself, what would I become?"] */
     },
     {
       "name": "The World",
@@ -935,10 +935,10 @@ export const cards = [
       "Hebrew Alphabet" : "Tau/Cross/400",
       "Numerology" : "21 = 2 + 1 = 3 (expression, result)",
       "Elemental" : "Saturn",
-      "Mythical/Spiritual" : "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
-	  "Questions to Ask" : ["For me, what would having it all mean?","How aware am I of my own connectedness to the world around me?","What keeps me from having it all right now, today?"]
+/*       "Mythical/Spiritual" : "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
+	  "Questions to Ask" : ["For me, what would having it all mean?","How aware am I of my own connectedness to the world around me?","What keeps me from having it all right now, today?"] */
     },
-    {
+   /*  {
       "name": "Ace of Cups",
       "number": "1",
       "arcana": "Minor Arcana",
@@ -3105,5 +3105,5 @@ export const cards = [
 		"Elemental" : "Fire of Earth.",
       "Affirmation" : "\"I embody confidence and fairness.\"",
 	  "Questions to Ask" : ["How can you handle expenses with greater confidence and maturity?","How dependable are you? How dependable would others say you are?","To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"]
-    }
+    } */
   ]
